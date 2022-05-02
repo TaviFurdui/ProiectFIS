@@ -1,0 +1,49 @@
+[{
+	"nume" : "Placa de baza", 
+	
+ 	"furnizor" : "Hewlett-Packard",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "Microprocesor", 
+	
+ 	"furnizor" : "Hewlett-Packard",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "HDD", 
+	
+ 	"furnizor" : "Hewlett-Packard",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "Monitor", 
+	
+ 	"furnizor" : "Samsung",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "Monitor", 
+	
+ 	"furnizor" : "Lenovo",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "Monitor", 
+	
+ 	"furnizor" : "Samsung",
+ 	
+ 	"pret": 200
+},
+{
+	"nume" : "Monitor", 
+	
+ 	"furnizor" : "Lenovo",
+ 	
+ 	"pret": 200
+}]

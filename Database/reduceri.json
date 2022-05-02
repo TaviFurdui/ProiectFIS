@@ -1,0 +1,44 @@
+[
+  {
+    "listaReduceri": [
+      {
+        "familie": "Desktop",
+        "nume": "Desktop Mini",
+        "pret": 200.0,
+        "cantitate_inventar": 0,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 0
+      },
+      {
+        "familie": "Laptop",
+        "nume": "Laptop Mini",
+        "pret": 200.0,
+        "cantitate_inventar": 0,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 0
+      }
+    ],
+    "pretNou": 500.5
+  },
+  {
+    "listaReduceri": [
+      {
+        "familie": "Desktop",
+        "nume": "Desktop Mini",
+        "pret": 200.0,
+        "cantitate_inventar": 0,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 0
+      },
+      {
+        "familie": "Desktop",
+        "nume": "Desktop Office",
+        "pret": 200.0,
+        "cantitate_inventar": 0,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 0
+      }
+    ],
+    "pretNou": 233.25
+  }
+]

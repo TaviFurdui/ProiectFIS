@@ -1,0 +1,12 @@
+[
+  {
+    "nume": "Desktop",
+    "familie": "Desktop Mini",
+    "situatie": "platita / card"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Mini",
+    "situatie": "in asteptare / cash"
+  }
+]

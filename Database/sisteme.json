@@ -1,0 +1,67 @@
+[
+{
+	"familie":"Desktop",
+	
+	"nume" : "Desktop Mini", 
+ 	
+ 	"pret": 200,
+ 	
+ 	"cantitate_comandata": 0,
+ 	
+ 	"cantitate_inventar": 0,
+ 	 	
+ 	"cantitate_livrata": 0
+},
+{
+	"familie":"Laptop",
+	
+	"nume" : "Laptop Mini", 
+ 	
+ 	"pret": 200,
+ 	
+ 	"cantitate_comandata": 0,
+ 	
+ 	"cantitate_inventar": 0,
+ 	 	
+ 	"cantitate_livrata": 0
+},
+{
+	"familie":"Desktop",
+	
+	"nume" : "Desktop Office", 
+ 	
+ 	"pret": 200,
+ 	
+ 	"cantitate_comandata": 0,
+ 	
+ 	"cantitate_inventar": 0,
+ 	 	
+ 	"cantitate_livrata": 0
+},
+{
+	"familie":"Desktop",
+	
+	"nume" : "Desktop Gaming", 
+ 	
+ 	"pret": 200,
+ 	
+ 	"cantitate_comandata": 0,
+ 	
+ 	"cantitate_inventar": 0,
+ 	 	
+ 	"cantitate_livrata": 0
+},
+{
+	"familie":"Laptop",
+	
+	"nume" : "Laptop Gaming", 
+ 	
+ 	"pret": 200,
+ 	
+ 	"cantitate_comandata": 0,
+ 	
+ 	"cantitate_inventar": 0,
+ 	 	
+ 	"cantitate_livrata": 0
+}
+]
