@@ -15,4 +15,13 @@
  	"parola" : "1234",
  	
  	"rol" : "user"
+},
+{
+	"nume" : "curier", 
+	
+ 	"email" : "curier@gmail.com",
+	
+ 	"parola" : "1234",
+ 	
+ 	"rol" : "curier"
 }]

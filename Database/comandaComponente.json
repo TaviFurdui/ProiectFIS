@@ -3,47 +3,47 @@
 	
  	"furnizor" : "Hewlett-Packard",
  	
- 	"pret": 200
+ 	"pret": 229.99
 },
 {
 	"nume" : "Microprocesor", 
 	
  	"furnizor" : "Hewlett-Packard",
  	
- 	"pret": 200
+ 	"pret": 119.99
 },
 {
 	"nume" : "HDD", 
 	
  	"furnizor" : "Hewlett-Packard",
  	
- 	"pret": 200
+ 	"pret": 200.00
 },
 {
 	"nume" : "Monitor", 
 	
  	"furnizor" : "Samsung",
  	
- 	"pret": 200
+ 	"pret": 699.99
 },
 {
 	"nume" : "Monitor", 
 	
  	"furnizor" : "Lenovo",
  	
- 	"pret": 200
+ 	"pret": 489.99
 },
 {
 	"nume" : "Monitor", 
 	
  	"furnizor" : "Samsung",
  	
- 	"pret": 200
+ 	"pret": 749.99
 },
 {
 	"nume" : "Monitor", 
 	
  	"furnizor" : "Lenovo",
  	
- 	"pret": 200
+ 	"pret": 519.99
 }]

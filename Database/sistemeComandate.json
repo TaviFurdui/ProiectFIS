@@ -1,12 +1,44 @@
 [
   {
-    "nume": "Desktop",
-    "familie": "Desktop Mini",
-    "situatie": "platita / card"
+    "nume": "Laptop",
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "da"
+  },
+  {
+    "nume": "Monitor",
+    "familie": "Samsung",
+    "situatie": "platita / cash",
+    "livrat": "da"
+  },
+  {
+    "nume": "Monitor",
+    "familie": "Samsung",
+    "situatie": "platita / card",
+    "livrat": "da"
   },
   {
     "nume": "Laptop",
-    "familie": "Laptop Mini",
-    "situatie": "in asteptare / cash"
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Monitor",
+    "familie": "Samsung",
+    "situatie": "platita / card",
+    "livrat": "da"
+  },
+  {
+    "nume": "Desktop",
+    "familie": "Desktop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
   }
 ]

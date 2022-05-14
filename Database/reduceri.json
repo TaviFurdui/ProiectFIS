@@ -3,42 +3,42 @@
     "listaReduceri": [
       {
         "familie": "Desktop",
-        "nume": "Desktop Mini",
+        "nume": "Desktop Gaming",
         "pret": 200.0,
-        "cantitate_inventar": 0,
+        "cantitate_inventar": 13,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 0
+        "cantitate_comandata": 7
       },
       {
         "familie": "Laptop",
-        "nume": "Laptop Mini",
+        "nume": "Laptop Gaming",
         "pret": 200.0,
-        "cantitate_inventar": 0,
+        "cantitate_inventar": 3,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 0
+        "cantitate_comandata": 7
       }
     ],
-    "pretNou": 500.5
+    "pretNou": 199.99
   },
   {
     "listaReduceri": [
       {
-        "familie": "Desktop",
-        "nume": "Desktop Mini",
-        "pret": 200.0,
-        "cantitate_inventar": 0,
+        "familie": "Imprimanta",
+        "nume": "XC0",
+        "pret": 120.0,
+        "cantitate_inventar": 11,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 0
+        "cantitate_comandata": 1
       },
       {
-        "familie": "Desktop",
-        "nume": "Desktop Office",
-        "pret": 200.0,
-        "cantitate_inventar": 0,
+        "familie": "Monitor",
+        "nume": "Samsung",
+        "pret": 900.0,
+        "cantitate_inventar": 6,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 0
+        "cantitate_comandata": 1
       }
     ],
-    "pretNou": 233.25
+    "pretNou": 649.99
   }
 ]

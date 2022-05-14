@@ -141,7 +141,12 @@ public class Login {
 							&& user[i].getParola().compareTo(txtParola.getText()) == 0) {
 						//System.out.println(user[i] + "\n" + txtEmail.getText());
 						shlLogin.close();
+						if (user[i].getRol().compareTo("admin") == 0)
 						new MainPage().open();
+						else if (user[i].getRol().compareTo("curier") == 0)
+						new MainPageCurier().open();
+						else
+						new MainPageUser().open();
 						gasit = true;
 					}
 				}

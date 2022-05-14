@@ -34,5 +34,23 @@
     "situatie": "platita / card",
     "observatii": "",
     "data": "May 1, 2022, 12:16:21 AM"
+  },
+  {
+    "nume": "Monitor",
+    "inventar": "",
+    "furnizor": "Samsung",
+    "status": "in asteptare",
+    "situatie": "platita / card",
+    "observatii": "",
+    "data": "May 4, 2022, 5:22:27 PM"
+  },
+  {
+    "nume": "Placa de baza",
+    "inventar": "",
+    "furnizor": "Hewlett-Packard",
+    "status": "in asteptare",
+    "situatie": "platita / card",
+    "observatii": "",
+    "data": "May 14, 2022, 12:15:12 AM"
   }
 ]

@@ -1,67 +1,26 @@
 [
-{
-	"familie":"Desktop",
-	
-	"nume" : "Desktop Mini", 
- 	
- 	"pret": 200,
- 	
- 	"cantitate_comandata": 0,
- 	
- 	"cantitate_inventar": 0,
- 	 	
- 	"cantitate_livrata": 0
-},
-{
-	"familie":"Laptop",
-	
-	"nume" : "Laptop Mini", 
- 	
- 	"pret": 200,
- 	
- 	"cantitate_comandata": 0,
- 	
- 	"cantitate_inventar": 0,
- 	 	
- 	"cantitate_livrata": 0
-},
-{
-	"familie":"Desktop",
-	
-	"nume" : "Desktop Office", 
- 	
- 	"pret": 200,
- 	
- 	"cantitate_comandata": 0,
- 	
- 	"cantitate_inventar": 0,
- 	 	
- 	"cantitate_livrata": 0
-},
-{
-	"familie":"Desktop",
-	
-	"nume" : "Desktop Gaming", 
- 	
- 	"pret": 200,
- 	
- 	"cantitate_comandata": 0,
- 	
- 	"cantitate_inventar": 0,
- 	 	
- 	"cantitate_livrata": 0
-},
-{
-	"familie":"Laptop",
-	
-	"nume" : "Laptop Gaming", 
- 	
- 	"pret": 200,
- 	
- 	"cantitate_comandata": 0,
- 	
- 	"cantitate_inventar": 0,
- 	 	
- 	"cantitate_livrata": 0
-}
+  {
+    "familie": "Laptop",
+    "nume": "Laptop Gaming",
+    "pret": 3200.0,
+    "cantitate_inventar": 36,
+    "cantitate_livrata": 0,
+    "cantitate_comandata": 9
+  },
+  {
+    "familie": "Laptop",
+    "nume": "Laptop Birou",
+    "pret": 2200.0,
+    "cantitate_inventar": 50,
+    "cantitate_livrata": 0,
+    "cantitate_comandata": 5
+  },
+  {
+    "familie": "Monitor",
+    "nume": "Samsung",
+    "pret": 900.0,
+    "cantitate_inventar": 40,
+    "cantitate_livrata": 0,
+    "cantitate_comandata": 5
+  }
 ]

@@ -42,7 +42,7 @@ public class Order {
 	protected void createContents() {
 		shlComanda = new Shell();
 		shlComanda.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_DARK_SHADOW));
-		shlComanda.setSize(450, 300);
+		shlComanda.setSize(450, 250);
 		shlComanda.setText("Comanda");
 		shlComanda.setLayout(null);
 		Button btnCash = new Button(shlComanda, SWT.NONE);
@@ -53,7 +53,7 @@ public class Order {
 				shlComanda.close();
 			}
 		});
-		btnCash.setBounds(87, 149, 75, 25);
+		btnCash.setBounds(109, 111, 75, 25);
 		btnCash.setText("Cash");
 
 		Button btnCard = new Button(shlComanda, SWT.NONE);
@@ -64,7 +64,7 @@ public class Order {
 				shlComanda.close();
 			}
 		});
-		btnCard.setBounds(260, 149, 75, 25);
+		btnCard.setBounds(238, 111, 75, 25);
 		btnCard.setText("Card");
 
 		Label lblIntrebare = new Label(shlComanda, SWT.NONE);
