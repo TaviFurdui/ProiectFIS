@@ -7,5 +7,23 @@
     "situatie": "platita / card",
     "livrat": "da",
     "pret": 4250
+  },
+  {
+    "ram": "16",
+    "ssd": "SSD",
+    "procesor": "Intel Core i7",
+    "memorie": "512GB",
+    "situatie": "platita / card",
+    "livrat": "da",
+    "pret": 5250
+  },
+  {
+    "ram": "32",
+    "ssd": "SSD",
+    "procesor": "Intel Core i9",
+    "memorie": "1TB",
+    "situatie": "platita / card",
+    "livrat": "da",
+    "pret": 7100
   }
 ]

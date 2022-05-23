@@ -5,17 +5,17 @@
         "familie": "Desktop",
         "nume": "Desktop Gaming",
         "pret": 200.0,
-        "cantitate_inventar": 13,
+        "cantitate_inventar": 12,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 7
+        "cantitate_comandata": 8
       },
       {
         "familie": "Laptop",
         "nume": "Laptop Gaming",
         "pret": 200.0,
-        "cantitate_inventar": 3,
+        "cantitate_inventar": 2,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 7
+        "cantitate_comandata": 8
       }
     ],
     "pretNou": 199.99
@@ -26,19 +26,40 @@
         "familie": "Imprimanta",
         "nume": "XC0",
         "pret": 120.0,
-        "cantitate_inventar": 11,
+        "cantitate_inventar": 10,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 1
+        "cantitate_comandata": 2
       },
       {
         "familie": "Monitor",
         "nume": "Samsung",
         "pret": 900.0,
-        "cantitate_inventar": 6,
+        "cantitate_inventar": 5,
         "cantitate_livrata": 0,
-        "cantitate_comandata": 1
+        "cantitate_comandata": 2
       }
     ],
     "pretNou": 649.99
+  },
+  {
+    "listaReduceri": [
+      {
+        "familie": "Monitor",
+        "nume": "Samsung",
+        "pret": 900.0,
+        "cantitate_inventar": 40,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 5
+      },
+      {
+        "familie": "Laptop",
+        "nume": "Laptop Birou",
+        "pret": 2200.0,
+        "cantitate_inventar": 49,
+        "cantitate_livrata": 0,
+        "cantitate_comandata": 6
+      }
+    ],
+    "pretNou": 4500.0
   }
 ]

@@ -26,6 +26,23 @@ public class Login {
 	protected Shell shlLogin;
 	private Text txtEmail;
 	private Text txtParola;
+
+	public Text getTxtEmail() {
+		return txtEmail;
+	}
+
+	public void setTxtEmail(Text txtEmail) {
+		this.txtEmail = txtEmail;
+	}
+
+	public Text getTxtParola() {
+		return txtParola;
+	}
+
+	public void setTxtParola(Text txtParola) {
+		this.txtParola = txtParola;
+	}
+
 	Composite[] layouts;
 	int crtActive;
 	StackLayout stack;

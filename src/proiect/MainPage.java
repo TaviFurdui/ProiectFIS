@@ -92,7 +92,7 @@ public class MainPage {
 			e1.printStackTrace();
 		}
 		Sistems[] sistem = obj.fromJson(fisierSisteme, Sistems[].class);
-
+		
 		filepath = "Database\\sistemeComandate.json";
 		try {
 			fisierSistemeComandate = new BufferedReader(new FileReader(filepath));
@@ -151,7 +151,10 @@ public class MainPage {
 
 		Composite compositeProbleme = new Composite(scrolledCompositeComponente, SWT.NONE);
 		compositeProbleme.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_DARK_SHADOW));
-
+		
+		Composite compositeGrafice = new Composite(scrolledCompositeComponente, SWT.NONE);
+		compositeGrafice.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_DARK_SHADOW));
+		
 		// Declarare liste componente / sisteme
 		List<SistemsAfterCommand> sisList = new ArrayList<SistemsAfterCommand>();
 		List<ComponentsAfterCommand> compList = new ArrayList<ComponentsAfterCommand>();
@@ -175,6 +178,64 @@ public class MainPage {
 		btnDeconectare.setText("Deconectare");
 
 		Button btnVizualizareGrafice = new Button(meniu, SWT.BORDER);
+		btnVizualizareGrafice.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				compositeComponente.setVisible(false);
+				compositeVizualizareComponente.setVisible(false);
+				compositeSisteme.setVisible(false);
+				compositeReduceri.setVisible(false);
+				compositeProbleme.setVisible(false);
+				compositeGrafice.setVisible(true);
+				scrolledCompositeComponente.setContent(compositeGrafice);
+				scrolledCompositeComponente.setMinSize(compositeGrafice.computeSize(SWT.DEFAULT, SWT.DEFAULT));
+				
+				Button btnInventar = new Button(compositeGrafice, SWT.BORDER);
+				btnInventar.addSelectionListener(new SelectionAdapter() {
+					@Override
+					public void widgetSelected(SelectionEvent e) {
+						shlAplicatia.close();
+						new GraficInventar().main(null);
+					}
+				});
+				btnInventar.setCursor(SWTResourceManager.getCursor(SWT.CURSOR_HAND));
+				btnInventar.setFont(SWTResourceManager.getFont("Microsoft Sans Serif", 12, SWT.NORMAL));
+				btnInventar.setForeground(SWTResourceManager.getColor(SWT.COLOR_WHITE));
+				btnInventar.setBackground(SWTResourceManager.getColor(SWT.COLOR_GRAY));
+				btnInventar.setBounds(20, 50, 200, 50);
+				btnInventar.setText("Grafic inventar");
+
+				Button btnVanzari = new Button(compositeGrafice, SWT.BORDER);
+				btnVanzari.addSelectionListener(new SelectionAdapter() {
+					@Override
+					public void widgetSelected(SelectionEvent e) {
+						shlAplicatia.close();
+						new GraficVanzari().main(null);
+					}
+				});
+				btnVanzari.setCursor(SWTResourceManager.getCursor(SWT.CURSOR_HAND));
+				btnVanzari.setFont(SWTResourceManager.getFont("Microsoft Sans Serif", 12, SWT.NORMAL));
+				btnVanzari.setForeground(SWTResourceManager.getColor(SWT.COLOR_WHITE));
+				btnVanzari.setBackground(SWTResourceManager.getColor(SWT.COLOR_GRAY));
+				btnVanzari.setBounds(20, 150, 200, 50);
+				btnVanzari.setText("Grafic inventar");
+				
+				Button btnProbleme = new Button(compositeGrafice, SWT.BORDER);
+				btnProbleme.addSelectionListener(new SelectionAdapter() {
+					@Override
+					public void widgetSelected(SelectionEvent e) {
+						shlAplicatia.close();
+						new GraficProbleme().main(null);
+					}
+				});
+				btnProbleme.setCursor(SWTResourceManager.getCursor(SWT.CURSOR_HAND));
+				btnProbleme.setFont(SWTResourceManager.getFont("Microsoft Sans Serif", 12, SWT.NORMAL));
+				btnProbleme.setForeground(SWTResourceManager.getColor(SWT.COLOR_WHITE));
+				btnProbleme.setBackground(SWTResourceManager.getColor(SWT.COLOR_GRAY));
+				btnProbleme.setBounds(20, 250, 200, 50);
+				btnProbleme.setText("Grafic inventar");
+			}
+		});
 		btnVizualizareGrafice.setCursor(SWTResourceManager.getCursor(SWT.CURSOR_HAND));
 		btnVizualizareGrafice.setText("Vizualizare grafice");
 		btnVizualizareGrafice.setForeground(SWTResourceManager.getColor(SWT.COLOR_WHITE));
@@ -199,6 +260,7 @@ public class MainPage {
 				compositeSisteme.setVisible(false);
 				compositeReduceri.setVisible(true);
 				compositeProbleme.setVisible(false);
+				compositeGrafice.setVisible(false);
 				scrolledCompositeComponente.setContent(compositeReduceri);
 				scrolledCompositeComponente.setMinSize(compositeReduceri.computeSize(SWT.DEFAULT, SWT.DEFAULT));
 
@@ -310,6 +372,7 @@ public class MainPage {
 				compositeSisteme.setVisible(false);
 				compositeReduceri.setVisible(false);
 				compositeProbleme.setVisible(false);
+				compositeGrafice.setVisible(false);
 				scrolledCompositeComponente.setContent(compositeComponente);
 				scrolledCompositeComponente.setMinSize(compositeComponente.computeSize(SWT.DEFAULT, SWT.DEFAULT));
 				int i;
@@ -394,6 +457,7 @@ public class MainPage {
 				compositeSisteme.setVisible(false);
 				compositeReduceri.setVisible(false);
 				compositeProbleme.setVisible(false);
+				compositeGrafice.setVisible(false);
 				scrolledCompositeComponente.setContent(compositeVizualizareComponente);
 				scrolledCompositeComponente
 						.setMinSize(compositeVizualizareComponente.computeSize(SWT.DEFAULT, SWT.DEFAULT));
@@ -441,6 +505,7 @@ public class MainPage {
 				compositeSisteme.setVisible(true);
 				compositeReduceri.setVisible(false);
 				compositeProbleme.setVisible(false);
+				compositeGrafice.setVisible(false);
 				scrolledCompositeComponente.setContent(compositeSisteme);
 				scrolledCompositeComponente.setMinSize(compositeSisteme.computeSize(SWT.DEFAULT, SWT.DEFAULT));
 				int i;
@@ -514,6 +579,7 @@ public class MainPage {
 				compositeSisteme.setVisible(false);
 				compositeReduceri.setVisible(false);
 				compositeProbleme.setVisible(true);
+				compositeGrafice.setVisible(false);
 				scrolledCompositeComponente.setContent(compositeProbleme);
 				scrolledCompositeComponente.setMinSize(compositeProbleme.computeSize(SWT.DEFAULT, SWT.DEFAULT));
 				Table table = new Table(compositeProbleme, SWT.MULTI | SWT.BORDER | SWT.FULL_SELECTION);

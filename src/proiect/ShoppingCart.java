@@ -346,7 +346,6 @@ public class ShoppingCart {
 							} catch (FileNotFoundException e3) {
 								e3.printStackTrace();
 							}
-
 						}
 					}
 

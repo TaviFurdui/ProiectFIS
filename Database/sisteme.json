@@ -3,17 +3,9 @@
     "familie": "Laptop",
     "nume": "Laptop Gaming",
     "pret": 3200.0,
-    "cantitate_inventar": 36,
+    "cantitate_inventar": 34,
     "cantitate_livrata": 0,
-    "cantitate_comandata": 9
-  },
-  {
-    "familie": "Laptop",
-    "nume": "Laptop Birou",
-    "pret": 2200.0,
-    "cantitate_inventar": 50,
-    "cantitate_livrata": 0,
-    "cantitate_comandata": 5
+    "cantitate_comandata": 11
   },
   {
     "familie": "Monitor",

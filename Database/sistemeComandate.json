@@ -21,7 +21,7 @@
     "nume": "Laptop",
     "familie": "Laptop Gaming",
     "situatie": "platita / card",
-    "livrat": "nu"
+    "livrat": "da"
   },
   {
     "nume": "Monitor",
@@ -38,6 +38,48 @@
   {
     "nume": "Laptop",
     "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Desktop",
+    "familie": "Desktop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Imprimanta",
+    "familie": "XC0",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Monitor",
+    "familie": "Samsung",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Gaming",
+    "situatie": "platita / card",
+    "livrat": "nu"
+  },
+  {
+    "nume": "Laptop",
+    "familie": "Laptop Birou",
     "situatie": "platita / card",
     "livrat": "nu"
   }
